@@ -1,0 +1,70 @@
+.modal-st {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-form-holder {
+  border: outset;
+  width: 30%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(116, 114, 114);
+  border-radius: 1rem;
+}
+
+.modal-form {
+  border: hidden;
+  padding: 1em;
+  width: 95%;
+  height: 90%;
+}
+
+.modal-input-space {
+  border: solid;
+  border-radius: 0.3em;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  resize: none;
+  font-size: 20px;
+  padding: 0.5em;
+  overflow-wrap: break-word;
+  line-height: 1.2em;
+  word-break: break-word;
+  border: 0.1em;
+}
+
+.modal-input-space::placeholder {
+  color: rgb(189, 187, 187);
+}
+
+
+.modal-textarea {
+  width: 100%;
+  height: 75%;
+}
+
+.modal-add-button {
+  border: hidden;
+  background-color:blue;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight:bold;
+  cursor: pointer;
+}
+
+.modal-add-button:hover{
+  filter:brightness(0.8)
+}
+
+.file-uploader{
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border:hidden;
+  color: white;
+}

@@ -1,0 +1,390 @@
+.header-h1 {
+  color: antiquewhite;
+  text-decoration: underline;
+  padding-top: 1em;
+  padding-bottom: 0.2em;
+  font-size: 1.5em;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  /* border-style: solid; */
+  margin: auto;
+  /* border-radius: 15px; */
+}
+
+.about-2 {
+  text-decoration: underline;
+  color: White;
+  font-size: 1.5em;
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
+  /* border-style: solid; */
+  /* border-radius: 15px; */
+}
+
+.profile-about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-navbar {
+  background-color: rgba(42, 42, 42, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em;
+  border-style: hidden;
+  padding: 0.8em;
+  text-align: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  margin-top: 1.2em;
+}
+
+.profile-navbar a {
+  color: rgb(27, 22, 22);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.profile-navbar a:hover {
+  background-color: #7c7e80;
+  border-style: hidden;
+  border-radius: 5px;
+  color: rgb(255, 254, 253);
+}
+
+.container-about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(42, 42, 42, 1);
+  border-radius: 20px;
+  border-style: hidden;
+  padding: 3em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.sprofile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.sprofile-pic-container{
+width: 10rem;
+height: 10rem;
+}
+
+.sprofile-pic {
+  width:100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 50%;
+}
+
+.profile-navbar-butt {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 1em;
+  height: 2.5em;
+  background-color: rgba(42, 42, 42, 1);
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-navbar-butt2 {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  justify-content: center;
+  border-radius: 2rem;
+  padding: 1em;
+  height: 2.5em;
+  background-color: rgb(109, 111, 114);
+  font-size: 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-navbar-butt:hover {
+  filter: brightness(1.5);
+}
+
+.profile-navbar-text {
+  padding-left: 0.5em;
+}
+
+.about_txt {
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+.about_txt_container{
+  width: 70%;
+  height: 3rem;
+}
+.profile-container{
+  display:flex;
+  width: 100%;
+  height: 52rem;
+}
+
+.profile-sub-container{
+  width: 60%;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+}
+
+.friends-requests-holder{
+  width: 20%;
+  padding: 1em;
+}
+
+.pshow-friends-holder{
+  display:flex;
+  justify-content:center;
+  width: 20%;
+  padding: 1em;
+}
+
+
+/* pshow friends laddu */
+
+.pshow-friends-container{
+  border: hidden;
+  padding: 1em;
+  width: 80%;
+  border-radius: 1em;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(78,78,78);
+  overflow-y: auto;
+}
+
+.pshow-friends-sub-container{
+  border:outset;
+  padding: 0.5em;
+  width: 100%;
+  border-radius: 0.5em;
+  display:flex;
+  flex-direction: column;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+  background-color:white;
+}
+
+.pshow-friend-action{
+  padding: 0.2em;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.pshow-friend-details{
+  
+  border-radius:0.4em;
+  display:flex;
+  align-items:center;
+  justify-content:flex;
+  padding: 0.5em;
+  background-color:inherit;
+
+}
+
+.pshow-friend-details:hover{
+  filter:brightness(0.8);
+
+}
+
+.pshow-friend-profile-click
+{
+  width: 3em;
+  height: 3em;
+  
+}
+
+.pshow-friend-profile-pic{
+  
+  width:100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 50%;
+
+}
+
+.pshow-friend-name-txt{
+font-weight:bold;
+
+padding: 0.5em;
+
+}
+
+.pshow-friend-button-remove
+{
+  border-radius: 2em;
+  height: 2em;
+  padding: 0.5em;
+  margin-left: 0.8em;
+  
+  margin-right: 0.8em;
+  color: black;
+  background-color:red;
+  font-weight: bold;
+  display:flex;
+  align-items:center;
+  font-size: 14px;
+  cursor: pointer;
+  
+  
+}
+
+.pshow-friend-button-accept
+{
+  border-radius: 2em;
+  height: 2em;
+  padding: 0.5em;
+  margin-left: 0.8em;
+  
+  margin-right: 0.8em;
+  color: black;
+  background-color:green;
+  font-weight: bold;
+  display:flex;
+  align-items:center;
+  font-size: 14px;
+  cursor: pointer;
+  
+  
+}
+
+.render-comment
+{ 
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  display: flex;
+  align-items:center;
+}
+
+.comment-form{
+  display:flex;
+  align-items: center;
+  width: 100%;
+
+}
+
+.comment-input-space{
+  display:flex;
+  padding: 0.4em;
+  border-radius:0.4em;
+  resize:none;
+  width:100%;
+  outline: none;
+  font-size: 16px;
+  margin-right: 0.5em;
+  height: 2em;
+}
+
+.comment-butt{
+  border-radius: 0.6em;
+  width: 6em;
+  height: 2.4em;
+  font-weight: bold;
+}
+
+.new-hr {
+  border-top: 1px solid white;
+
+}
+
+.multi-comment-container{
+  display:flex;
+  flex-direction: column;
+  justify-content:flex; 
+  padding: 1em 0em 1em 0em;
+  border-radius: 0.5em;
+}
+
+.multi-comment-profile-pic-holder{
+  display:flex;
+width: 2.5em;
+height: 2.5em;
+
+}
+
+.multi-comment-profile-pic{
+  object-fit:cover;
+  height: 100%;
+
+  width: 100%;
+  border-radius: 50%;
+
+
+}
+
+.multi-comment-details{
+  padding: 0.5em;
+  max-width:100%;
+  height: 100%;
+  margin-left: 3.4em;
+  color: black;
+background-color: #c5c1c1;
+border-radius: 1rem;
+
+}
+
+.multi-comment-profile{
+  display:flex;
+
+  text-decoration:underline;
+  padding-left: 0.5em;
+}
+
+.multi-comment-box{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0.5em;
+}
+
+.multi-comment-holder-box{
+  display:flex;
+}
+
+.multi-comment-sub-box{
+  display:flex;
+  align-items:center;
+  background-color:white;
+  padding: 0.5em;
+  border-radius: 0.8em;
+}
+
+.multi-comment-text
+{
+  font: 15px Georgia, Arial;
+}

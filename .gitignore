@@ -1,0 +1,7 @@
+/frontend/node_modules
+/frontend/package-lock.json
+/frontend/package.json
+/Backend/media/posts/
+/Backend/media/profile_pics
+/Backend/Recommendation/DEEPLINER_MOD/
+/Backend/db.sqlite3

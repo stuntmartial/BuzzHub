@@ -1,0 +1,44 @@
+.residence-container{
+    display:flex;
+    justify-content:center;
+    width: 36vw;
+    height: 20vh;
+
+
+}
+
+
+.residence-form{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    text-align: center;
+
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    width: 100%;
+    border:hidden;
+    border-radius: 1em;
+    background-color: rgb(78, 78, 78);
+}
+
+.residence-entry{
+display:flex;
+justify-content:space-between;
+align-items: center;
+border: outset;
+border-radius: 0.5em;
+padding: 0.5em;
+background-color:rgb(156, 156, 156);
+
+}
+
+.residence-label{
+    color:white;
+    font-weight: bold;
+}
+
+.residence-input{
+    width: 55%;
+}
