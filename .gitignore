@@ -5,3 +5,4 @@
 /Backend/media/profile_pics
 /Backend/Recommendation/DEEPLINKER_MOD/
 /Backend/db.sqlite3
+/Backend/Backend/secretKey.py
